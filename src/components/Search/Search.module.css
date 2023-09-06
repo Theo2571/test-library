@@ -1,0 +1,43 @@
+.wrapper {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background: cadetblue;
+    height: 191px;
+}
+.inputBlock {
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.input {
+    padding-right: 20px;
+    width: 350px;
+    height: 25px;
+}
+.searchImage {
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    cursor: pointer;
+    margin-right: 5px;
+}
+.selectSearch {
+    flex-wrap: wrap;
+    margin-top: 25px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1%;
+}
+.select {
+    width: 100px;
+}
+@media screen and (max-width: 370px){
+    .input {
+        width: 300px;
+    }
+}
